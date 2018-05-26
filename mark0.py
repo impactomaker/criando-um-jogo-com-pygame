@@ -14,10 +14,10 @@ import pygame
 # Verificando erros de inicializacao
 check_errors = pygame.init()
 if check_errors[1] > 0:
-    print("(!) Ops, {0} o pygame iniciou com algum problema..." . format(check_errors[1]))
+    print("(!) Ops, {0} o Pygame iniciou com algum problema..." . format(check_errors[1]))
     sys.exit(-1)
 else:
-    print("(+) Pygame foi inicializado com sucesso!")
+    print("(+) O Pygame foi inicializado com sucesso!")
 
 
 # Global Variables
